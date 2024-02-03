@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Website</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/shop.css">
+    <link rel="stylesheet" href="style/blog.css">
+    <link rel="stylesheet" href="style/contact.css">
+    <link rel="stylesheet" href="style/cart.css">
+</head>
+<body>
+    <div id="header">
+        <a href="index.html"><img src="img/logo1.png" class="logo"></a>
+  
+          <div>
+              <ul id="navbar">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="shop.html">Shop</a></li>
+                  <li><a href="blog.html">Blog</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                  <li id="lg-bag"><a class="active" href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                  <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+              </ul>
+          </div>
+          <div id="mobile">
+              <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+              <i id="bar" class="fa-solid fa-bars"></i>
+          </div>
+     </div>
+
+     <div class="cart-header">
+        <h2>CART ITEM</h2>
+        <p></p>
+    </div>
+    <div id="cart" class="section-padding js-cart-item">
+    </div> 
+
+    <div id="cart-payment" class="section-padding js-payment-summary">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+        <div>
+            <input type="text" placeholder="Enter Your Coupon">
+            <button class="normal">Apply</button>
+        </div>
+    </div>
+
+        <div id="subtotal">
+            <h3>CartTables</h3>
+            <table>
+                <tr>
+                    <td>Cart Shopping</td>
+                    <td>1500</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>FREE</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>1500</strong></td>
+                </tr>
+            </table>
+
+            <button class="normal">Proceed To Buy</button>
+        </div>
+    </div>
+
+    <div id="footer" class="section-padding">
+        <div class="column">
+            <img class="logo" src="img/logo1.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address : </strong>Faridabad Haryana , India</p>
+            <p><strong>phone : </strong> (+91) 012345 6789</p>
+            <p><strong>Hours : </strong>10:00-10:00, Mon - Sat</p>
+            <div class="follow">
+                <h4>follow Us</h4>
+            
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+        </div>
+        </div>
+
+        <div class="column">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Infromation</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="column">
+            <h4>My Account</h4>
+            <a href="#">Sign in</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Orders
+            <a href="#">Help</a>
+        </div>
+
+        <div class="column Install">
+            <h4>Install App</h4>
+            <p>From App Store or Google play</p>
+            <div class="row">
+                <img src="img/pay/app.jpg">
+                <img src="img/pay/play.jpg">
+            </div>
+            <p>Secured Payments Gateways</p>
+            <img src="img/pay/pay.png">
+        </div>
+
+        <div class="copyright">
+            <p>© 2024, Deepak Sharma - Ecommerce Website.</p>
+        </div>
+
+    </div>
+
+
+<script src="script/cart.js" type="module"></script>
+<script src="script/script.js"></script>
+<script src="https://kit.fontawesome.com/6f180cbf0c.js" crossorigin="anonymous"></script>
+</body>
+</html>
